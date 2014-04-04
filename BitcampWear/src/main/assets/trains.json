@@ -1,0 +1,43 @@
+{
+    "Trains": [{
+        "Car": "8",
+        "Destination": "Shady Gr",
+        "DestinationCode": "A15",
+        "DestinationName": "Shady Grove",
+        "Group": "2",
+        "Line": "RD",
+        "LocationCode": "A10",
+        "LocationName": "Medical Center",
+        "Min": "7"
+    }, {
+        "Car": "8",
+        "Destination": "Glenmont",
+        "DestinationCode": "B11",
+        "DestinationName": "Glenmont",
+        "Group": "1",
+        "Line": "RD",
+        "LocationCode": "A11",
+        "LocationName": "Grosvenor",
+        "Min": "7"
+    }, {
+        "Car": "8",
+        "Destination": "Glenmont",
+        "DestinationCode": "B11",
+        "DestinationName": "Glenmont",
+        "Group": "1",
+        "Line": "RD",
+        "LocationCode": "A10",
+        "LocationName": "Medical Center",
+        "Min": "10"
+    }, {
+        "Car": "8",
+        "Destination": "Shady Gr",
+        "DestinationCode": "A15",
+        "DestinationName": "Shady Grove",
+        "Group": "2",
+        "Line": "RD",
+        "LocationCode": "A11",
+        "LocationName": "Grosvenor",
+        "Min": "11"
+    }]
+ }

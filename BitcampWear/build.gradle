@@ -1,0 +1,33 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:0.9.1'
+    }
+}
+apply plugin: 'android'
+
+repositories {
+        mavenCentral()
+}
+
+dependencies {
+    compile "com.android.support:support-v4:19.1.0"
+    compile "com.jakewharton:butterknife:4.0.1"
+    compile "com.google.code.gson:gson:2.2.4"
+    compile files('libs/wearable-preview-support.jar')
+}
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.3"
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+        testPackageName "com.realandylawton.bitcampwear"
+    }
+}
